@@ -2,8 +2,8 @@ public class livingObstacle extends Obstacle {
 
     Boolean alive;
 
-    public livingObstacle(String name){
-        super(name);
+    public livingObstacle(String name,String hint){
+        super(name,hint);
         this.alive=true;
 
     }
